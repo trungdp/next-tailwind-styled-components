@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Quicksand;
+  src: url('src/assets/fonts/Quicksand-VariableFont_wght.ttf');
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: Quicksand !important;
+  color: var(--dark-color);
+}
