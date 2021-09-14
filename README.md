@@ -10,7 +10,7 @@ In reallity, [**Twin.macro**](https://github.com/ben-rogerson/twin.macro) can ma
 ## How to install
 Install package
 ```
-yarn install     # or npm install
+cp .env.example .env && yarn install     # or npm install
 ```
 
 Run this project on develop environment
